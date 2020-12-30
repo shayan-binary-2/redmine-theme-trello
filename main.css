@@ -24,7 +24,8 @@
 .agile-board table.list.issues-board {
     width: 1800px;
 }
-.issue-card:before {
+.issue-card::before {
   background: red;
   position: absolute;
+  content: ' ';
 }
