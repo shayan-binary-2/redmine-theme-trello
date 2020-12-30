@@ -17,3 +17,10 @@
 .issue-card p.name a {
     font-weight: 600;
 }
+
+.agile-board .container-fixed {
+    overflow-x: scroll
+}
+.agile-board table.list.issues-board {
+    width: 1800px;
+}
