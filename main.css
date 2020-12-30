@@ -1,3 +1,11 @@
-html>body #content {
-background: red;
+.issue-card p.project {
+    border: 1px solid #111;
+    padding: 1px 3px;
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 3px;
 }
