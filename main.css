@@ -24,6 +24,15 @@
 .agile-board table.list.issues-board {
     width: 1800px;
 }
+
+
+.issue-card {
+    background-color: #ebecf0;
+    margin: 0px;
+    padding: 14px;
+    border: none;
+}
+
 .issue-card::before {
   background: red;
   position: absolute;
@@ -31,10 +40,16 @@
 }
 
 .issue-card::after {
-    background: red;
+    background: #fff;
     position: absolute;
     content: ' ';
- }
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    left: 5px;
+    top: 5px;
+    z-index: -1;
+    border-radius: 5px;
+}
 
 
 table.issues-board tbody td::before,
@@ -43,5 +58,14 @@ table.issues-board tbody tr.issue:hover td::before {
   border-radius: 3px;
   position: absolute;
   content: ' ';
+}
+
+.issues-board .add-issue {
+    border: none;
+    padding: 0px;
+    margin: 0;
+    background: #ebecf0;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
 }
 
