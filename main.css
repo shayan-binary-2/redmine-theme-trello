@@ -27,10 +27,11 @@
 
 
 .issue-card {
-    background-color: #ebecf0;
+    background-color: #ebecf0 !important;
     margin: 0px;
     padding: 14px;
     border: none;
+    z-index: 1;
 }
 
 .issue-card::before {
@@ -50,7 +51,9 @@
     z-index: -1;
     border-radius: 5px;
 }
-
+.issue-card::first-child {
+	border-radius: 0 0 5px 5px;
+}
 
 table.issues-board tbody td::before,
 table.issues-board tbody tr.issue:hover td::before {
@@ -67,5 +70,10 @@ table.issues-board tbody tr.issue:hover td::before {
     background: #ebecf0;
     border-radius: 0 0 5px 5px;
     cursor: pointer;
+}
+
+.agile-board .container-fixed {
+    overflow-x: scroll;
+    background: transparent url(https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1440x1920/51516b2…/photo-1591687095105-571080d07dd6.jpg) no-repeat scroll center center / cover;
 }
 
