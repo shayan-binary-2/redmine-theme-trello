@@ -111,7 +111,7 @@ table.issues-board tbody tr.issue:hover td::before {
 
 .agile-board .container-fixed {
     overflow-x: scroll;
-    background: transparent url("https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2400x1600/6620a12520bfed8c0dbb33600b5e019a/photo-1510495953850-ddd057203644.jpg") no-repeat scroll center center / cover;
+    background: transparent url("https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2400x1600/6620a12520bfed8c0dbb33600b5e019a/photo-1510495953850-ddd057203644.jpg") repeat-y scroll top center;
 }
 
 
