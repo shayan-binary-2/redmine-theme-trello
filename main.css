@@ -1,3 +1,12 @@
+
+#sidebar {
+    flex-shrink: 0;
+    padding-left: 10px;
+    background: #eee;
+    border-left: 1px solid #ddd;
+    width: 90px !important;
+}
+
 .issue-card p.project {
     border: 1px solid #111;
     padding: 1px 3px;
@@ -92,4 +101,16 @@ table.issues-board tbody tr.issue:hover td::before {
     overflow-x: scroll;
     background: transparent url("https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2400x1600/6620a12520bfed8c0dbb33600b5e019a/photo-1510495953850-ddd057203644.jpg") no-repeat scroll center center / cover;
 }
+
+
+/** issue detail **/
+.controller-issues #content {
+  background-color: #f4f5f7;
+}
+.controller-issues div.issue {
+  background: transparent;
+}
+
+
+
 
